@@ -1,0 +1,28 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607528923350,
+    "id": "cefc660a34aa47ee8708abfe0ece4ca6",
+    "internalTimestamp": "000001607528923351.000006943982509220",
+    "lastModifiedDate": 1607528923350,
+    "relType": "DATASHEET_RELATES_TO_EQUIPMENTTYPE",
+    "sourceId": "22c8a1a48c084a088971999169cca563",
+    "targetId": "5b3507dec4294e6aa08cc2a50d51d3b6",
+    "type": "OFI_DatasheetDATASHEET_RELATES_TO_EQUIPMENTTYPEOFI_EquipmentType",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607528923382,
+    "id": "be96c06af7f7416abba21d9a6e65214c",
+    "internalTimestamp": "000001607528923383.000006944014297938",
+    "lastModifiedDate": 1607528923382,
+    "relType": "DATASHEET_RELATES_TO_EQUIPMENTTYPE",
+    "sourceId": "b4a8f15b17944d38b00467e296b384b1",
+    "targetId": "cc6e608485424949aa629d43d465ffa1",
+    "type": "OFI_DatasheetDATASHEET_RELATES_TO_EQUIPMENTTYPEOFI_EquipmentType",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

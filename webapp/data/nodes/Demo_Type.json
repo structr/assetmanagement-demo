@@ -1,0 +1,30 @@
+[
+{
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1615212612334,
+  "grantees": [],
+  "hidden": false,
+  "id": "2e58a838d94245d0a010f0db5debc416",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1615212618286,
+  "name": "A",
+  "owner": null,
+  "type": "Demo_Type",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1615212613553,
+  "grantees": [],
+  "hidden": false,
+  "id": "9267de4ecb83471e832e00cab172ec33",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1615212619336,
+  "name": "B",
+  "owner": null,
+  "type": "Demo_Type",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+}
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529406426,
+    "id": "d7cc563f50ab4ecc87f5bc1ae2e7c370",
+    "internalTimestamp": "000001607529406426.000007427057617732",
+    "lastModifiedDate": 1607529406426,
+    "relType": "GRAPH_HAS_DRAWING",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "f6e853ede0c341e780491cabc84ee542",
+    "type": "OFI_GraphGRAPH_HAS_DRAWINGOFI_Drawing",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529406838,
+    "id": "a364f80114b14580965771f0ce3560f4",
+    "internalTimestamp": "000001607529406838.000007427469302316",
+    "lastModifiedDate": 1607529406838,
+    "relType": "GRAPH_HAS_DRAWING",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "41df7199fa134793a84a7f5b2d215b69",
+    "type": "OFI_GraphGRAPH_HAS_DRAWINGOFI_Drawing",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529407407,
+    "id": "8cbec21c3d324b599cd408104582818f",
+    "internalTimestamp": "000001607529407407.000007428038220427",
+    "lastModifiedDate": 1607529407407,
+    "relType": "GRAPH_HAS_DRAWING",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "e5ba3f8d6f484b23a7e520132822f137",
+    "type": "OFI_GraphGRAPH_HAS_DRAWINGOFI_Drawing",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529407903,
+    "id": "26c46739a6484154941e0eabf738bf3c",
+    "internalTimestamp": "000001607529407903.000007428534613290",
+    "lastModifiedDate": 1607529407903,
+    "relType": "GRAPH_HAS_DRAWING",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "0084a7cb33284731a269dc53cb6067bf",
+    "type": "OFI_GraphGRAPH_HAS_DRAWINGOFI_Drawing",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

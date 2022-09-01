@@ -1,0 +1,41 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529423372,
+    "id": "14c930b9e83a4a89bba9be87b2f3ad91",
+    "internalTimestamp": "000001607529423372.000007444003775105",
+    "lastModifiedDate": 1607529423372,
+    "relType": "GRAPH_HAS_STANDARDANDREGULATION",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "2839a7af39a74a818c5eaa36dad22db2",
+    "type": "OFI_GraphGRAPH_HAS_STANDARDANDREGULATIONOFI_StandardAndRegulation",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529423843,
+    "id": "e296716c511640fabbfa4f2c2457e61a",
+    "internalTimestamp": "000001607529423843.000007444474889725",
+    "lastModifiedDate": 1607529423843,
+    "relType": "GRAPH_HAS_STANDARDANDREGULATION",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "e1b1c7a3b892457c983f65423d0afc7b",
+    "type": "OFI_GraphGRAPH_HAS_STANDARDANDREGULATIONOFI_StandardAndRegulation",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529424239,
+    "id": "269537ced5b44778a7014f127cb27f26",
+    "internalTimestamp": "000001607529424239.000007444870471936",
+    "lastModifiedDate": 1607529424239,
+    "relType": "GRAPH_HAS_STANDARDANDREGULATION",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "1ca4192b2e5b447fa346b902f88d6ec9",
+    "type": "OFI_GraphGRAPH_HAS_STANDARDANDREGULATIONOFI_StandardAndRegulation",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

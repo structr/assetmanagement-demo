@@ -1,0 +1,96 @@
+${{
+
+	const request = $.get('request');
+
+	const debug    = $.empty(request['debug'])    ? false : (request['debug'] === 'true');
+	const property = $.empty(request['property']) ? ''    : request['property'];
+	const value    = $.empty(request['value'])    ? ''    : request['value'];
+	const limit    = $.empty(request['limit'])    ? 10    : $.int(request['limit']);
+
+	$.log('Property: ', property);
+
+
+
+	/****************************************\
+	 * HELPER FUNCTIONS
+	\****************************************/
+
+	function findEntries(type, key, value) {
+	
+		const map = {};
+		map[key] = value;
+
+		const result = $.sort($.search(
+			type,
+			map
+		), key);
+		
+		return result;
+		
+	}
+	
+	function formatResults(property, results) {
+		
+		const formattedResults = [];
+		for(let entry of results) {
+		
+			formattedResults.push({
+				key      : entry[property],
+				value    : entry.id,
+				property : property,
+				type     : entry.type
+			});
+
+		}
+		
+		return formattedResults;
+
+	}
+
+
+
+
+
+	/****************************************\
+	 * MAIN
+	\****************************************/
+	
+	let results = [];
+	switch(property) {
+            
+        case 'clause':
+            results = findEntries('Demo_Clause', 'name', value);
+			results = formatResults('name', results);
+            break;
+		
+		case 'datasheet':
+            results = findEntries('Demo_Datasheet', 'name', value);
+			results = formatResults('name', results);
+            break;
+		
+		case 'deliverable':
+            results = findEntries('Demo_Deliverable', 'name', value);
+			results = formatResults('name', results);
+            break;
+		
+		case 'drawing':
+            results = findEntries('Demo_Drawing', 'name', value);
+			results = formatResults('name', results);
+            break;
+		
+		case 'equipment':
+            results = findEntries('Demo_Equipment', 'name', value);
+			results = formatResults('name', results);
+            break;
+		
+		case 'workpack':
+            results = findEntries('Demo_Workpack', 'name', value);
+			results = formatResults('name', results);
+            break;
+
+    }
+
+	if(debug) $.print(JSON.stringify(results, null, 2));
+	else      $.print(JSON.stringify(results));
+
+}}

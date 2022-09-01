@@ -1,0 +1,54 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529012917,
+    "id": "e45a27ce4e074c2fa9916a299ccb58b5",
+    "internalTimestamp": "000001607529012917.000007033548584871",
+    "lastModifiedDate": 1607529012917,
+    "relType": "DRAWING_PART_OF_DELIVERABLE",
+    "sourceId": "f6e853ede0c341e780491cabc84ee542",
+    "targetId": "183126752294487695ce37ea0c078913",
+    "type": "OFI_DrawingDRAWING_PART_OF_DELIVERABLEOFI_Deliverable",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529012944,
+    "id": "c0b56c4c5316477db67c57225407ba73",
+    "internalTimestamp": "000001607529012944.000007033575703423",
+    "lastModifiedDate": 1607529012944,
+    "relType": "DRAWING_PART_OF_DELIVERABLE",
+    "sourceId": "41df7199fa134793a84a7f5b2d215b69",
+    "targetId": "183126752294487695ce37ea0c078913",
+    "type": "OFI_DrawingDRAWING_PART_OF_DELIVERABLEOFI_Deliverable",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529012952,
+    "id": "8c24a15b589d4ef89040cc6a8f08ae63",
+    "internalTimestamp": "000001607529012952.000007033583881437",
+    "lastModifiedDate": 1607529012952,
+    "relType": "DRAWING_PART_OF_DELIVERABLE",
+    "sourceId": "0084a7cb33284731a269dc53cb6067bf",
+    "targetId": "183126752294487695ce37ea0c078913",
+    "type": "OFI_DrawingDRAWING_PART_OF_DELIVERABLEOFI_Deliverable",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529012959,
+    "id": "69baa6bada1a4e2989c3395e775f159d",
+    "internalTimestamp": "000001607529012959.000007033590847379",
+    "lastModifiedDate": 1607529012959,
+    "relType": "DRAWING_PART_OF_DELIVERABLE",
+    "sourceId": "e5ba3f8d6f484b23a7e520132822f137",
+    "targetId": "183126752294487695ce37ea0c078913",
+    "type": "OFI_DrawingDRAWING_PART_OF_DELIVERABLEOFI_Deliverable",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

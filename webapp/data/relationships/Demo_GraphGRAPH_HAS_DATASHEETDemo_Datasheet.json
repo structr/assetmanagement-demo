@@ -1,0 +1,28 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607592083534,
+    "id": "bf73eb07f1f54d0caf41670fe18bf473",
+    "internalTimestamp": "000001607592083534.000070104164943059",
+    "lastModifiedDate": 1607592083534,
+    "relType": "GRAPH_HAS_DATASHEET",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "22c8a1a48c084a088971999169cca563",
+    "type": "Demo_GraphGRAPH_HAS_DATASHEETDemo_Datasheet",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607592084065,
+    "id": "36d5c78d24a844348e3b25a8d65a090b",
+    "internalTimestamp": "000001607592084065.000070104696267575",
+    "lastModifiedDate": 1607592084065,
+    "relType": "GRAPH_HAS_DATASHEET",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "b4a8f15b17944d38b00467e296b384b1",
+    "type": "Demo_GraphGRAPH_HAS_DATASHEETDemo_Datasheet",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

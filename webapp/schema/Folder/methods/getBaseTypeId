@@ -1,0 +1,1 @@
+return org.apache.chemistry.opencmis.commons.enums.BaseTypeId.CMIS_FOLDER;

@@ -1,0 +1,53 @@
+[
+{
+  "color": "#bcbd22",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528328580,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "ee8ae5151a7e4dbc868360247d2f9052",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528328580,
+  "name": "WORD",
+  "ofi_ID": "n8",
+  "owner": null,
+  "type": "Demo_DocType",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "color": "#bcbd22",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528328601,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "5a0c8a02c27b46eca10833c9c12616c2",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528328601,
+  "name": "DWG",
+  "ofi_ID": "n9",
+  "owner": null,
+  "type": "Demo_DocType",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "color": "#bcbd22",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528328604,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "b556704f16ac4a01b44f14d9f6a5f0a0",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528328604,
+  "name": "PDF",
+  "ofi_ID": "n10",
+  "owner": null,
+  "type": "Demo_DocType",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+}
+]

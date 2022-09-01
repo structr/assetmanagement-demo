@@ -1,0 +1,137 @@
+<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="Main Page Template-a5217bf8d0ac4da3b7613e526779dfca" data-structr-meta-name="Main Page Template" data-structr-meta-id="d50e910ffd5b46cca532c51f2466071a"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Counts-->
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div class="row" data-structr-meta-id="174207ab577f45df9a96f77de8e52919"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Valid-->
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="col-md-6 mb-4" data-structr-meta-id="77e161da34414fa0addb5e1a637b9585">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="card border-left-success shadow h-100 py-2" data-structr-meta-id="11289920036346f1959dd11701e01854">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="card-body" data-structr-meta-id="d665cd54ec2547b8bdf219849d3a6baf">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row no-gutters align-items-center" data-structr-meta-id="7ad8ec20283543de9ac729423944c6e3">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col mr-2" data-structr-meta-id="e929906e1a214d17a9baf76089c7b5cb">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="text-xs font-weight-bold text-success text-uppercase mb-1" data-structr-meta-id="f366dc894988490ab8d98830051dc7b5"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Valid</div>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="h5 mb-0 font-weight-bold text-gray-800" data-structr-meta-id="600d8ffcb44d4d2dbc42d88014e2173e"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${{
+
+	const equipment      = $.find('Demo_Equipment');
+	const validEquipment = equipment.filter(e =&gt; e.computedStatus === 'VALID');
+	
+	const numValidEquipment = $.int(validEquipment.length);
+	return numValidEquipment;
+	
+}}</div>
+						</div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col-auto" data-structr-meta-id="a79340fec9124d3ca7780202978f212a"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><i class="fas fa-check fa-2x text-gray-300" data-structr-meta-id="211c33c3fbf34835bdbd5a27c0262b26"></i></div>
+					</div>
+				</div>
+			</div>
+		</div><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Invalid-->
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="col-md-6 mb-4" data-structr-meta-id="6aec7a1424a04e19bc79fb8acb02b521">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="card border-left-danger shadow h-100 py-2" data-structr-meta-id="13891d99ca5448d89762b48e019884d6">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="card-body" data-structr-meta-id="b5fa0368db434973a3e27b0d15b02a76">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row no-gutters align-items-center" data-structr-meta-id="d8de573d55574ab0b6528980cf55d7d7">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col mr-2" data-structr-meta-id="d3e35c50618f446bb1748ba96367464a">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="text-xs font-weight-bold text-danger text-uppercase mb-1" data-structr-meta-id="4a1e5d150db044978d6408bac5ecfd7b"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Invalid</div>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="h5 mb-0 font-weight-bold text-gray-800" data-structr-meta-id="2539dea2589b477b9515573e106d8408"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${{
+
+	const equipment        = $.find('Demo_Equipment');
+	const invalidEquipment = equipment.filter(e =&gt; e.computedStatus === 'INVALID');
+	
+	const numInvalidEquipment = $.int(invalidEquipment.length);
+	return numInvalidEquipment;
+	
+}}</div>
+						</div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col-auto" data-structr-meta-id="d4f0cd0c85604ecc88e15ee922d00136"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><i class="fas fa-times fa-2x text-gray-300" data-structr-meta-id="f741858522d44b4aacdc5b3da225a6b6"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Table-->
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div class="card shadow mb-4" data-structr-meta-id="5c274e5cf9944896820692ae6787fbf2">
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between" data-structr-meta-id="cbecb4c31ba042d1abc1af612d9fd012">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<h6 class="m-0 font-weight-bold text-primary" data-structr-meta-id="3dfed3e263b64fa288510cb0d459f8ed"></h6><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm" href="/equipment" data-structr-meta-id="c4e9ccab7ba6413da05f892649313f6d"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><i class="fas fa-plus fa-sm text-white-50" data-structr-meta-id="dfbfe52641dc46e8b486a1a56252c862"></i><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> New Equipment</a>
+		</div>
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="card-body card-table-body" data-structr-meta-id="301c1f2b8a7e46b788645f6eebd0db63">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="table-responsive" data-structr-meta-id="507cb6a9ed5e4fd182a75c3bf44861f8">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<table class="table" id="dataTable" data-structr-meta-id="f8d8c295a26f486aa604d3bf2f94d1cd">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<thead data-structr-meta-id="293261be762643b2ac169122cdfefa41">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<tr data-structr-meta-id="680286ea69554b01b6d7d1ec8308b8d7">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="0fd7bc505104455681c56f5d89a70953"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Name</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="c1af3c0d5de04f0b855327c4644e9af9"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Status</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="fe3f8c1cd1864041a88f887c9004fd44"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Type</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="bb7005d92c084bbbb3738f7d30c0bfff"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Description</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="bb44ace9822f4f7d9c73e6d58d5843a1"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Drawings</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="041c40d9bc9a491f8ed67526e6d6303a"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Deliverables</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="927206c27e9843ec9ce5afdfe2601c01"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Binaries</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="b58daa78706a41be9ea4b4c0c4d4af98"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Graph</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="c47da90fd6ad46a0991d0d48444a6723"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Actions</th>
+						</tr>
+					</thead>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<tbody data-structr-meta-id="36c01c560f254949b5d14c4f1a3555c9">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<tr data-structr-meta-id="2d307c4c271842daa38bc65f9a335356" data-structr-meta-data-key="equipment">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="d039c953e2d840aa8700741a4e71c8ab"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${equipment.name}</td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td class="${if(equal(equipment.computedStatus,'VALID'),'valid', 'invalid')} text-center align-middle" data-structr-meta-id="92d4759a4cd74f6c9b68b5f9859d2ef7"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${lower(equipment.status)}</td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="69210a9ca9e84066bfcbc79ee1e0d06d"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${equipment.equipmentType.name}</td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="8fe621d8fb274a6ba9aac6f3e4d644fb"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${equipment.description}</td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="a678ff9886464bf18f0cde44098e10b6"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-sm btn-${if(equal(drawing.computedStatus,'VALID'),'success','danger')} btn-block mb-1" href="/drawing/${drawing}" data-structr-meta-id="b87921e7402f479ca1d16c526712951e" data-structr-meta-data-key="drawing" data-structr-meta-function-query="sort(equipment.drawings, 'name')">
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="No Linebreak-adcd7addffc14d31a6fa57121a60b362" data-structr-meta-name="No Linebreak" data-structr-meta-id="adcd7addffc14d31a6fa57121a60b362"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${drawing.name}
+									</structr:template>
+								</a></td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="35ba1c514e6147239eb6eb5ffad1f4b4"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-sm btn-${if(equal(deliverable.computedStatus,'VALID'),'success','danger')} btn-block mb-1" href="/deliverable/${deliverable}" data-structr-meta-id="55fb130d6b884316a97d8c40713e8e01" data-structr-meta-data-key="deliverable" data-structr-meta-function-query="sort(equipment.deliverables, 'name')"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${deliverable.name}</a></td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="7bf90d1f78934068a563ca477271ca52"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="badge badge-primary" data-structr-meta-id="e8d5edc57a3b40f4a90aed6c4b6b5519" data-structr-meta-data-key="binary" data-structr-meta-function-query="sort(equipment.binaries, 'name')">
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="No Linebreak-92ae114c1497455e99aae8fc7e93e6fa" data-structr-meta-name="No Linebreak" data-structr-meta-id="92ae114c1497455e99aae8fc7e93e6fa"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${binary.name}
+									</structr:template>
+								</span></td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="d4f457091c3d47e3b66f1a5cab52bdb9"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${equipment.graph.name}</td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="af55255c94e0477d86f85ed22f56296a"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" href="/equipment/${equipment}" data-structr-meta-id="6e7b717a1a44407bbb5c3d7f1b59da2a">
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="No Linebreak-742f09c6377a4791b7f8ff7267150517" data-structr-meta-name="No Linebreak" data-structr-meta-id="742f09c6377a4791b7f8ff7267150517"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><i class="fas fa-eye fa-sm text-white-50" data-structr-meta-id="bea8f357be434e6c8dfe0695be9fb8fb"></i><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span data-structr-meta-id="7586355cbb8f46c6a5ec577424c82755"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> Show</span>
+									</structr:template>
+								</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</structr:template>

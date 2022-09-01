@@ -1,0 +1,15 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1615212624890,
+    "id": "28b9c0a4026649c7b68dd0efbb255b4d",
+    "internalTimestamp": "000001615212624890.003384882782998310",
+    "lastModifiedDate": 1615212624890,
+    "relType": "DEMO",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "2e58a838d94245d0a010f0db5debc416",
+    "type": "Demo_GraphDEMODemo_Type",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

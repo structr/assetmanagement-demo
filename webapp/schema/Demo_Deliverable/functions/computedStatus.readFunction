@@ -1,0 +1,47 @@
+{
+
+	const self = $.this;
+
+	if(self.status === 'INVALID') {
+		return 'INVALID';
+	}
+	
+	const equipments = self.equipments;
+	for(let equipment of equipments) {
+	
+		if(equipment.computedStatus === 'INVALID') {
+			return 'INVALID';
+		}
+	
+	}
+	
+	const drawings = self.drawings;
+	for(let drawing of drawings) {
+	
+		if(drawing.computedStatus === 'INVALID') {
+			return 'INVALID';
+		}
+	
+	}
+	
+	const datasheets = self.datasheets;
+	for(let datasheet of datasheets) {
+	
+		if(datasheet.computedStatus === 'INVALID') {
+			return 'INVALID';
+		}
+	
+	}
+	
+	const children = self.children;
+	for(let child of children) {
+	
+		if(child.computedStatus === 'INVALID') {
+			return 'INVALID';
+		}
+		
+	}
+	
+	return 'VALID';
+
+}

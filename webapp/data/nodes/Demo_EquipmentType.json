@@ -1,0 +1,36 @@
+[
+{
+  "color": "#bcbd22",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528371789,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "5b3507dec4294e6aa08cc2a50d51d3b6",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528371789,
+  "name": "HV Motor",
+  "ofi_ID": "n14",
+  "owner": null,
+  "type": "Demo_EquipmentType",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "color": "#bcbd22",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528371813,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "cc6e608485424949aa629d43d465ffa1",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528371813,
+  "name": "Transformer",
+  "ofi_ID": "n29",
+  "owner": null,
+  "type": "Demo_EquipmentType",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+}
+]

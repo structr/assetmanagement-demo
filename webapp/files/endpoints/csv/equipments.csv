@@ -1,0 +1,21 @@
+${{
+
+	const equipments = $.sort($.find('Demo_Equipment'), 'name');
+
+	$.setResponseHeader('Content-Disposition', 'attachment; filename="equipment.csv"');
+	
+	$.print('Name, Status, Type, Description, Drawings, Deliverables, Binaries, Graph\n');
+	for(let equipment of equipments) {
+	
+		$.print('"', equipment.name,                                              '",');
+		$.print('"', equipment.status,                                            '",');
+		$.print('"', equipment.equipmentType ? equipment.equipmentType.name : '', '",');
+		$.print('"', equipment.description,                                       '",');
+		$.print('"', equipment.drawings.map(d => d.name).join(','),               '",');
+		$.print('"', equipment.deliverables.map(d => d.name).join(','),           '",');
+		$.print('"', equipment.binaries.map(b => b.name).join(','),               '",');
+		$.print('"', equipment.graph.name,                                        '"\n');
+	
+	}
+
+}}
