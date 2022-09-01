@@ -1,6 +1,6 @@
 # Structr Assetmanagement Demo
 
-This is a small demo application build with Structr that showcases an assetmanagement usecase.
+This is a small demo application built with Structr that showcases an assetmanagement usecase.
 
 ## Requirements
 
