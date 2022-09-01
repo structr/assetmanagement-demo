@@ -2,10 +2,9 @@
 
 This is a small demo application build with Structr that showcases an assetmanagement usecase.
 
-## Requirement
+## Requirements
 
-- A running instance of Structr (> version 4.2.0)
-- A valid Structr license key
+A running instance of Structr enterprise edition (> version 4.2.0)
 
 ## Installation
 
@@ -17,5 +16,7 @@ Or follow these steps:
   - Paste the link into the input field "Download URL of ZIP file for app import".
   - Enter "assetmanagement-demo-1.0/webapp" in the field below.
   - Click on the button "Import app from ZIP file"
+
+
 
 > :warning: **The deployment import will remove all existing application information in the Structr instance**: It is highly recommended to use a new and empty database for the deployment of this demo!
