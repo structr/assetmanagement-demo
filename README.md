@@ -1,4 +1,4 @@
-# Structr Assetmanagement
+# Structr Assetmanagement Demo
 
 This is a small demo application build with Structr that showcases an assetmanagement usecase.
 
