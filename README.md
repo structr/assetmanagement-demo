@@ -15,7 +15,7 @@ Or follow these steps:
   - Go to the Dashboard section in the Structr UI and select the "Deployment" tab.
   - Copy the link URL of the latest release .zip file from this repository.
   - Paste the link into the input field "Download URL of ZIP file for app import".
-  - Enter "assetmanagement-demo-webapp_v1/webapp_v1" in the field below.
+  - Enter "assetmanagement-demo-1.0/webapp" in the field below.
   - Click on the button "Import app from ZIP file"
 
 > :warning: **The deployment import will remove all existing application information in the Structr instance**: It is highly recommended to use a new and empty database for the deployment of this demo!
