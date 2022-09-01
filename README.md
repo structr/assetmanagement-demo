@@ -11,6 +11,11 @@ This is a small demo application build with Structr that showcases an assetmanag
 
 Follow the instructions [here](https://docs.structr.com/docs/fundamental-concepts?highlight=Deployment%20Import#deployment-import) to import the application into your running Structr installation. 
 
-The easiest way is to copy the path of the realase zip file of this demo and paste the URL in the Structr dashboard/Deployment tab in the input file under "Import application from URL or upload a ZIP file" and click on the import button.
+Or follow these steps:
+  - Go to the Dashboard section in the Structr UI and select the "Deployment" tab.
+  - Copy the link URL of the latest release .zip file from this repository.
+  - Paste the link into the input field "Download URL of ZIP file for app import".
+  - Enter "assetmanagement-demo-webapp_v1/webapp_v1" in the field below.
+  - Click on the button "Import app from ZIP file"
 
 > :warning: **The deployment import will remove all existing application information in the Structr instance**: It is highly recommended to use a new and empty database for the deployment of this demo!
