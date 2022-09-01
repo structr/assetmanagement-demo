@@ -1,1 +1,0 @@
-return org.structr.text.model.StructuredTextNode.split(this, parameters);

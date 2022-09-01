@@ -1,1 +1,0 @@
-return org.structr.messaging.engine.entities.MessageClient.unsubscribeTopic(this, topic, ctx);

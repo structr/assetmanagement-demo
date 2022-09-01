@@ -1,1 +1,0 @@
-return org.structr.web.entity.dom.Page.createElementNS(this, arg0, arg1);

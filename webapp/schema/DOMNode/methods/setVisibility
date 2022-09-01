@@ -1,1 +1,0 @@
-setProperty(visibleToPublicUsers, arg0); setProperty(visibleToAuthenticatedUsers, arg1);

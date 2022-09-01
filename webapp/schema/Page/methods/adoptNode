@@ -1,1 +1,0 @@
-return org.structr.web.entity.dom.Page.adoptNode(this, arg0, true);

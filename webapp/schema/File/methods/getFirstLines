@@ -1,1 +1,0 @@
-return org.structr.web.entity.File.getFirstLines(this, parameters, ctx);

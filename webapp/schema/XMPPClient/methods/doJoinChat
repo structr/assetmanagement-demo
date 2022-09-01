@@ -1,1 +1,0 @@
-return org.structr.xmpp.XMPPClient.doJoinChat(this, chatroom, nickname, password);

@@ -1,1 +1,0 @@
-return org.structr.feed.entity.FeedItemContent.getInputStream(this);

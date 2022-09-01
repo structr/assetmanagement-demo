@@ -1,1 +1,0 @@
-return org.structr.xmpp.XMPPClient.doSendMessage(this, recipient, message);

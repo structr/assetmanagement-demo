@@ -1,1 +1,0 @@
-return org.structr.web.entity.Image.getScaledImage(this, arg0, arg1, arg2);

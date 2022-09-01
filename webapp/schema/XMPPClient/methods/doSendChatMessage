@@ -1,1 +1,0 @@
-return org.structr.xmpp.XMPPClient.doSendChatMessage(this, chatroom, message, password);

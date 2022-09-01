@@ -1,1 +1,0 @@
-return org.structr.payment.entity.PaymentNode.getTotal(this);

@@ -1,8 +1,0 @@
-{
-
-	const self = $.this;
-	const computedStatus = self.status;
-
-	return computedStatus;
-
-}

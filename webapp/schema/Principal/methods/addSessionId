@@ -1,1 +1,0 @@
-return org.structr.core.entity.Principal.addSessionId(this, arg0);

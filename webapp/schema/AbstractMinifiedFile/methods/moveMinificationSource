@@ -1,1 +1,0 @@
-org.structr.web.entity.AbstractMinifiedFile.moveMinificationSource(this, from, to, ctx);

@@ -1,1 +1,0 @@
-return org.structr.web.entity.AbstractFile.includeInFrontendExport(this);

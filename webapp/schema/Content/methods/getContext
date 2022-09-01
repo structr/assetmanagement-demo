@@ -1,1 +1,0 @@
-if (StringUtils.isNotBlank(getName())) { return getName(); } else { return getPagePath(); }

@@ -1,1 +1,0 @@
-return org.structr.web.entity.File.doCSVImport(this, parameters, ctx);

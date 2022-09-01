@@ -1,1 +1,0 @@
-org.structr.media.AVConv.newInstance(ctx, this, newFileName).doConversion(scriptName);

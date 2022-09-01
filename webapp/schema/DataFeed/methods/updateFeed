@@ -1,1 +1,0 @@
-org.structr.feed.entity.DataFeed.updateFeed(this, cleanUp, ctx);

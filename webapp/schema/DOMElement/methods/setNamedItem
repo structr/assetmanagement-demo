@@ -1,1 +1,0 @@
-return org.structr.web.entity.dom.DOMElement.setNamedItem(this, arg0);

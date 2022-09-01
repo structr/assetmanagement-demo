@@ -1,1 +1,0 @@
-setProperty(ownerDocumentProperty, (Page)ownerDocument);

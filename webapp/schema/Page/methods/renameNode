@@ -1,1 +1,0 @@
-return org.structr.web.entity.dom.Page.renameNode(this, arg0, arg1, arg2);

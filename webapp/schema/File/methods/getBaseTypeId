@@ -1,1 +1,0 @@
-return org.apache.chemistry.opencmis.commons.enums.BaseTypeId.CMIS_DOCUMENT;

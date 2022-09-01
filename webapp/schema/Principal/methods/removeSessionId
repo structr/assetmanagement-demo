@@ -1,1 +1,0 @@
-org.structr.core.entity.Principal.removeSessionId(this, arg0);

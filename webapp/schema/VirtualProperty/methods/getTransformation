@@ -1,1 +1,0 @@
-return org.structr.transform.VirtualProperty.getTransformation(this, arg0);

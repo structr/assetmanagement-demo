@@ -1,1 +1,0 @@
-setProperty(workingDirectoryProperty, (org.structr.dynamic.Folder)workingDirectory);
