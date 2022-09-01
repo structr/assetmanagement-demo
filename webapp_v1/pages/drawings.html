@@ -1,0 +1,137 @@
+<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="Main Page Template-a5217bf8d0ac4da3b7613e526779dfca" data-structr-meta-name="Main Page Template" data-structr-meta-id="a96ddc4c18674b58b5a954eb39e59490"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Counts-->
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div class="row" data-structr-meta-id="399839c8c14b47d0804069c07338a2d7"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Valid-->
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="col-md-6 mb-4" data-structr-meta-id="a8c47030b1e64d7a9a6f0bebbf9d9e8e">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="card border-left-success shadow h-100 py-2" data-structr-meta-id="926f76a5887449cdb6bede527a4aa117">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="card-body" data-structr-meta-id="c8f394df5f3647cbaa046885ef5d418b">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row no-gutters align-items-center" data-structr-meta-id="dc170601bf234c35b08e38a18c862b89">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col mr-2" data-structr-meta-id="d42afb2a18c24a48bf5e14f4c4a3201e">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="text-xs font-weight-bold text-success text-uppercase mb-1" data-structr-meta-id="0ed24cda3d344326b885a2e29b7a6139"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Valid</div>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="h5 mb-0 font-weight-bold text-gray-800" data-structr-meta-id="de8f06ab809f4c1dbbd38ef827ac165e"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${{
+/*
+	const drawings      = $.find('Demo_Drawing');
+	const validDrawings = drawings.filter(d =&gt; d.computedStatus === 'VALID');
+	
+	const numValidDrawings = $.int(validDrawings.length);
+	return numValidDrawings;
+*/	
+}}${size(find('Demo_Drawing', 'computedStatus', 'VALID'))}</div>
+						</div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col-auto" data-structr-meta-id="802f24639a0c44c3abd0d9ca407635e4"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><i class="fas fa-check fa-2x text-gray-300" data-structr-meta-id="32f9f75e21cf40a0b0c052c504a545d4"></i></div>
+					</div>
+				</div>
+			</div>
+		</div><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Invalid-->
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="col-md-6 mb-4" data-structr-meta-id="c083d96200f44865a49561e5248b3aef">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="card border-left-danger shadow h-100 py-2" data-structr-meta-id="50dbf99dd3ff48d19fee99aa0de68421">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="card-body" data-structr-meta-id="6b8d25f1369d4687add1552278b5c5a4">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row no-gutters align-items-center" data-structr-meta-id="9762584c527642bc8160dc4fca9a5bbc">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col mr-2" data-structr-meta-id="e24250c951994179b7c289c6bbf2bca8">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="text-xs font-weight-bold text-danger text-uppercase mb-1" data-structr-meta-id="02ac4ed0b3ba426db8600d52492ce361"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Invalid</div>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="h5 mb-0 font-weight-bold text-gray-800" data-structr-meta-id="1b350955adc349a088dd76a7857b70f1"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${{
+/*
+	const drawings        = $.find('Demo_Drawing');
+	const invalidDrawings = drawings.filter(d =&gt; d.computedStatus === 'INVALID');
+	
+	const numInvalidDrawings = $.int(invalidDrawings.length);
+	return numInvalidDrawings;
+	*/
+}}${size(find('Demo_Drawing', 'computedStatus', 'INVALID'))}</div>
+						</div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col-auto" data-structr-meta-id="2ae8104918a74a238a4553cf262ae026"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><i class="fas fa-times fa-2x text-gray-300" data-structr-meta-id="eb10572c90bb4dc3978fcfc0855384fd"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Table-->
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div class="card shadow mb-4" data-structr-meta-id="4d41e29760a8492fbddaa0395bc2d107">
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between" data-structr-meta-id="2f5724a5951443ed960ebc98d2f4eca0">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<h6 class="m-0 font-weight-bold text-primary" data-structr-meta-id="cec683f0ebe5441798c0085cb472f879"></h6><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm" href="/drawing" data-structr-meta-id="6a952ac01257402da7b93a4b670560d2"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><i class="fas fa-plus fa-sm text-white-50" data-structr-meta-id="d9d6b7dce9834444acb2b643511c4009"></i><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> New Drawing</a>
+		</div>
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="card-body card-table-body" data-structr-meta-id="5fa40900417d4abea6567f8c45bde15f">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="table-responsive" data-structr-meta-id="619b8c5a422f40b69bff94b122003f98">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<table class="table" id="dataTable" data-structr-meta-id="235fe2477dd045b7b9c85c439a1493d2">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<thead data-structr-meta-id="da7aab6462694f65bc73de99350c481b">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<tr data-structr-meta-id="400f1c2b5f52479ebf15982a92a5de2d">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="8daf20bf649f46fda9d72ffa89d8f01e"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Name</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="94b04cefd0f1419a8718ba5ba5d26815"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Status</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="9640ce97860949109329e4c3af1e718c"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Type</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="00c8be0f4eb742b59fefd37fb0400430"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Description</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="16f251d096c549a6a668ae974acdf7c8"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Deliverables</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="eb8385b775f74934a7bfaea19bd7a277"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Workpacks</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="1317f48534ab4fe18fa5a80ebf414c3a"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Equipment</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="ed2e40e4a11148d9b93e88b1f552594f"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Graph</th>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<th data-structr-meta-id="1ec3c0474d80460ba66bc54d6f955283"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Actions</th>
+						</tr>
+					</thead>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<tbody data-structr-meta-id="119e8c05134d47999163f64da0be7858">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<tr data-structr-meta-id="28777ca1586049ab8376f52733f78882" data-structr-meta-data-key="drawing" data-structr-meta-rest-query="Demo_Drawing">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="d4a467059112450986cd799153b8f3cf"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${drawing.name}</td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td class="${if(equal(drawing.computedStatus,'VALID'),'valid', 'invalid')} text-center align-middle" data-structr-meta-id="c4023debd3c2442199fe379190ec565a"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${lower(drawing.computedStatus)}</td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="56cb90c5574c4dd0921dd5c3adf93c0d"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="badge badge-primary mx-1" data-structr-meta-id="613ae01410a54080a78c10b64f51040d" data-structr-meta-data-key="docType" data-structr-meta-function-query="sort(drawing.docTypes, 'name')"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${docType.name}</span></td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="d742a99beb9b4f1fa6e2356321ef3e92"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${drawing.description}</td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="6debfbe40e8d4832924c6cf95884a872"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-sm btn-${if(equal(deliverable.computedStatus,'VALID'),'success','danger')} btn-block mb-1" href="/deliverable/${deliverable}" data-structr-meta-id="9ce4175fd71241109a5636ba7a8e3f40" data-structr-meta-data-key="deliverable" data-structr-meta-function-query="sort(drawing.deliverables, 'name')"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${deliverable.name}</a></td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="40c62a89fc8a4692a03be80cf6a71a1a"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-sm btn-${if(equal(workpack.computedStatus,'VALID'),'success','danger')} btn-block mb-1" href="/workpack/${workpack}" data-structr-meta-id="9ce457363ef349238acdbb0b5f1e2d84" data-structr-meta-data-key="workpack" data-structr-meta-function-query="sort(drawing.workpacks, 'name')">
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="No Linebreak-023d123bdc2445b5b1963210236aee82" data-structr-meta-name="No Linebreak" data-structr-meta-id="023d123bdc2445b5b1963210236aee82"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${workpack.name}
+									</structr:template>
+								</a></td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="31f20fa8e06e4396b227b7eeaf1cd9f3"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-sm btn-${if(equal(equipment.computedStatus,'VALID'),'success','danger')} btn-block mb-1" href="/equipment/${equipment}" data-structr-meta-id="2dbf0397982346629e57c731d1e78eef" data-structr-meta-data-key="equipment" data-structr-meta-function-query="sort(drawing.equipments, 'name')">
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="No Linebreak-a0f9009384694c8b83fba29b8dd78495" data-structr-meta-name="No Linebreak" data-structr-meta-id="a0f9009384694c8b83fba29b8dd78495"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${equipment.name}
+									</structr:template>
+								</a></td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="4e8e06fd62a2419ab42330dbebc45d9e"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${drawing.graph.name}</td>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<td data-structr-meta-id="8bb3c5fd058f42e6827adc7837cb4f0e"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" href="/drawing/${drawing}" data-structr-meta-id="f113e69cdf81431eb6b7e03f93ceced2">
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="No Linebreak-9443938c45fa4f52ae4f6551f9ff5fbb" data-structr-meta-name="No Linebreak" data-structr-meta-id="9443938c45fa4f52ae4f6551f9ff5fbb"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><i class="fas fa-eye fa-sm text-white-50" data-structr-meta-id="5a168742425444b4977d311402562211"></i><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span data-structr-meta-id="db0b972b2ffd4703b0278ae2524eeb55"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> Show</span>
+									</structr:template>
+								</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</structr:template>

@@ -1,0 +1,41 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529156803,
+    "id": "d8dd96eab24646bfb36f9397962a2830",
+    "internalTimestamp": "000001607529156803.000007177434586466",
+    "lastModifiedDate": 1607529156803,
+    "relType": "EQUIPMENT_PART_OF_DELIVERABLE",
+    "sourceId": "bfddb41491284f4cbc122984d398316f",
+    "targetId": "2624c2becb074ceaa82a1a9713c1fa32",
+    "type": "OFI_EquipmentEQUIPMENT_PART_OF_DELIVERABLEOFI_Deliverable",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529156808,
+    "id": "50bd09f4d34c4fb180bdd1841236a6a7",
+    "internalTimestamp": "000001607529156808.000007177439430481",
+    "lastModifiedDate": 1607529156808,
+    "relType": "EQUIPMENT_PART_OF_DELIVERABLE",
+    "sourceId": "bfddb41491284f4cbc122984d398316f",
+    "targetId": "8b426400a954485991baf4f7af9cce57",
+    "type": "OFI_EquipmentEQUIPMENT_PART_OF_DELIVERABLEOFI_Deliverable",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607591493785,
+    "id": "6c28edb94db847c2bc712f5e893eb9ca",
+    "internalTimestamp": "000001607591493785.000069514416428297",
+    "lastModifiedDate": 1607591493785,
+    "relType": "EQUIPMENT_PART_OF_DELIVERABLE",
+    "sourceId": "92ecfd7153444a74adec0414ca2cbde3",
+    "targetId": "2624c2becb074ceaa82a1a9713c1fa32",
+    "type": "Demo_EquipmentEQUIPMENT_PART_OF_DELIVERABLEDemo_Deliverable",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

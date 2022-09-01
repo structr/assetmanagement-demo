@@ -1,0 +1,15 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529309770,
+    "id": "b26425e079f84c08b5f453bb90bb5966",
+    "internalTimestamp": "000001607529309771.000007330401904931",
+    "lastModifiedDate": 1607529309770,
+    "relType": "WORKPACK_RELATES_TO_EMAIL",
+    "sourceId": "e9e6ad0181ca4435ab297d2e8ff5d290",
+    "targetId": "80076ffa9b3f43b194d67787dedc9b1a",
+    "type": "OFI_WorkpackWORKPACK_RELATES_TO_EMAILOFI_Email",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

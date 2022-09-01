@@ -1,0 +1,197 @@
+${{
+
+	const request    = $.get('request');
+
+	const debug      = $.empty(request['debug']) ? false : (request['debug'] === 'true');
+	const networkIds = request['network'].split(',');
+	
+	
+	
+	
+	
+	/****************************************\
+	 #COLLECT-SCHEMA
+	\****************************************/
+	
+	const graph = {
+		nodes : [],
+		edges : []
+	};
+	const seenNodes = {};
+	const seenEdges = {};
+	
+	const networks = networkIds.map(networkId => $.find('Demo_Graph', networkId)).filter(network => !$.empty(network));
+	
+	networks.forEach(collectGraph);
+		
+	function collectGraph(network) {
+		
+		// equipment
+		const equipments = network.equipments;
+		for(let equipment of equipments) {
+			
+			addNode(equipment);
+			
+			// add deliverables
+			let equipmentDeliverables = equipment.deliverables;
+			for(let deliverable of equipmentDeliverables) {
+			
+				addNode(deliverable);
+				addEdge(deliverable, 'part of', equipment);
+			
+			}
+			
+			// add drawings
+			let equipmentDrawings = equipment.drawings;
+			for(let drawing of equipmentDrawings) {
+			
+				addNode(drawing);
+				addEdge(drawing, 'exists on', equipment);
+			
+			}
+				
+		}
+		
+		// deliverables
+		const deliverables = network.deliverables;
+		for(let deliverable of deliverables) {
+			
+			addNode(deliverable);
+			
+			let deliverableChildren = deliverable.children;
+			for(let child of deliverableChildren) {
+			
+				addNode(child);
+				addEdge(deliverable, 'part of', child);
+			
+			}
+			
+		}
+
+		// drawings
+		let drawings = network.drawings;
+		for(let drawing of drawings) {
+			
+			addNode(drawing);
+			
+			// add deliverables
+			let drawingDeliverables = drawing.deliverables;
+			for(let deliverable of drawingDeliverables) {
+				
+				addNode(deliverable);
+				addEdge(deliverable, 'part of', drawing);
+				
+			}
+			
+			// add workpacks
+			let drawingWorkpacks = drawing.workpacks;
+			for(let workpack of drawingWorkpacks) {
+			
+				addNode(workpack);
+				addEdge(workpack, 'part of', drawing);
+				
+			}
+			
+		}
+
+		// datasheets
+		const datasheets = network.datasheets;
+		for(let datasheet of datasheets) {
+
+			addNode(datasheet);
+
+			// add deliverables
+			let datasheetDeliverables = datasheet.deliverables;
+			for(let deliverable of datasheetDeliverables) {
+			
+				addNode(deliverable);
+				addEdge(deliverable, 'part of', datasheet);
+			
+			}
+			
+			// add workpacks
+			let datasheetWorkpacks = datasheet.workpacks;
+			for(let workpack of datasheetWorkpacks) {
+			
+				addNode(workpack);
+				addEdge(workpack, 'part of', datasheet);
+			
+			}
+
+		}
+		
+		// workpack
+		const workpacks = network.workpacks;
+		for(let workpack of workpacks) {
+			
+			addNode(workpack);
+			
+		}
+		
+	}
+	
+	function addNode(node) {
+	
+		const key = node.id;
+
+		if($.empty(seenNodes[key])) {
+			
+			const graphNode = {
+				id    : node.id,
+				label : node.name
+			};
+			
+			const icon = node.topologyIcon();
+
+			if(icon) {
+				graphNode.shape = 'icon';
+				graphNode.icon  = icon;
+			}
+			
+			const status = $.empty(node.computedStatus) ? node.status : node.computedStatus;
+			if(status) {
+				graphNode.group = status;
+			} else {
+				graphNode.group = 'UNKNOWN';	
+			}
+			
+
+			graph.nodes.push(graphNode);
+			seenNodes[key] = true;
+			
+		}
+	
+	}
+	
+	function addEdge(sourceNode, label, targetNode) {
+	
+		const key = (sourceNode.id < targetNode.id) ? (sourceNode.id + '-' + targetNode.id) : (targetNode.id + '-' + sourceNode.id);
+
+		if($.empty(seenNodes[key])) {
+
+			const graphEdge = {
+				from   : sourceNode.id,
+				to     : targetNode.id,
+				//label  : $.capitalize($.lower(label)),
+				arrows : 'to'
+			};
+		
+			graph.edges.push(graphEdge);
+			seenNodes[key] = true;
+
+		}
+		
+	}
+	
+	
+	
+	
+	
+	/****************************************\
+	 #PRINT-RESULT
+	\****************************************/
+	
+	if(debug) return JSON.stringify(graph, null, 2);
+	else      return JSON.stringify(graph);
+
+}}

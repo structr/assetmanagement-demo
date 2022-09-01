@@ -1,0 +1,20 @@
+{
+
+	const self = $.this;
+
+	if(self.status === 'INVALID') {
+		return 'INVALID';
+	}
+	
+	const equipments = self.equipments;
+	for(let equipment of equipments) {
+	
+		if(equipment.computedStatus === 'INVALID') {
+			return 'INVALID';
+		}
+	
+	}
+	
+	return 'VALID';
+
+}

@@ -1,0 +1,21 @@
+${{
+
+	const datasheets = $.sort($.find('Demo_Datasheet'), 'name');
+
+	$.setResponseHeader('Content-Disposition', 'attachment; filename="datasheets.csv"');
+	
+	$.print('Name, Status, Document Type, Equipment Type, Description, Deliverables, Workpacks, Graph\n');
+	for(let datasheet of datasheets) {
+	
+		$.print('"', datasheet.name,                                    '",');
+		$.print('"', datasheet.status,                                  '",');
+		$.print('"', datasheet.docType.name,                            '",');
+		$.print('"', datasheet.equipmentType.name,                      '",');
+		$.print('"', datasheet.description,                             '",');
+		$.print('"', datasheet.deliverables.map(d => d.name).join(','), '",');
+		$.print('"', datasheet.workpacks.map(w => w.name).join(','),    '",');
+		$.print('"', datasheet.graph.name,                              '"\n');
+	
+	}
+
+}}

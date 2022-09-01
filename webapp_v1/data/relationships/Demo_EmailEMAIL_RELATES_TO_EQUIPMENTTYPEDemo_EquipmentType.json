@@ -1,0 +1,15 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529101797,
+    "id": "f4e9a452fc1e4b8188fde93e61f0a1f5",
+    "internalTimestamp": "000001607529101797.000007122428335853",
+    "lastModifiedDate": 1607529101797,
+    "relType": "EMAIL_RELATES_TO_EQUIPMENTTYPE",
+    "sourceId": "b3b5e6c3e1324f2d8d2e62541217cc84",
+    "targetId": "cc6e608485424949aa629d43d465ffa1",
+    "type": "OFI_EmailEMAIL_RELATES_TO_EQUIPMENTTYPEOFI_EquipmentType",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

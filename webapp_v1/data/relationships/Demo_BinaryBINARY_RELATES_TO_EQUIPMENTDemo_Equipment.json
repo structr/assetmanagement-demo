@@ -1,0 +1,15 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607591493820,
+    "id": "58773a977ce2440fa9ced36f952ff756",
+    "internalTimestamp": "000001607591493821.000069514452610386",
+    "lastModifiedDate": 1607591493820,
+    "relType": "BINARY_RELATES_TO_EQUIPMENT",
+    "sourceId": "5a0d13c11f2045dc91821f971f40d7e0",
+    "targetId": "92ecfd7153444a74adec0414ca2cbde3",
+    "type": "Demo_BinaryBINARY_RELATES_TO_EQUIPMENTDemo_Equipment",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]

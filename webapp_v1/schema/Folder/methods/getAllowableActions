@@ -1,0 +1,1 @@
+return org.structr.files.cmis.config.StructrFolderActions.getInstance();

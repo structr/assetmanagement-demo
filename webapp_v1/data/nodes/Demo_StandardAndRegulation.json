@@ -1,0 +1,53 @@
+[
+{
+  "color": "#9467bd",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528403798,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "2839a7af39a74a818c5eaa36dad22db2",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528403798,
+  "name": "AS1940",
+  "ofi_ID": "n18",
+  "owner": null,
+  "type": "Demo_StandardAndRegulation",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "color": "#9467bd",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528403813,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "e1b1c7a3b892457c983f65423d0afc7b",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528403813,
+  "name": "AS2067",
+  "ofi_ID": "n19",
+  "owner": null,
+  "type": "Demo_StandardAndRegulation",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "color": "#9467bd",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528403816,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "1ca4192b2e5b447fa346b902f88d6ec9",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528403816,
+  "name": "AS3000",
+  "ofi_ID": "n28",
+  "owner": null,
+  "type": "Demo_StandardAndRegulation",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+}
+]

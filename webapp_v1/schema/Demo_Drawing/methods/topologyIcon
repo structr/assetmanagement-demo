@@ -1,0 +1,22 @@
+{
+
+	const self = $.this;
+	
+	let color;
+	if(self.computedStatus === 'VALID') {
+		color = '#00b300';
+	} else if(self.computedStatus === 'INVALID') {
+		color = '#ff0000';
+	} else {
+		color = '#808080';
+	}
+	
+	return {
+		face  : "'Font Awesome 5 Free'",
+		code  : "\uf1fc",
+		size  : 50,
+		color : color,
+		weight: 'bold'
+	};
+
+}

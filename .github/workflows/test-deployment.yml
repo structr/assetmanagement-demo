@@ -1,0 +1,20 @@
+name: Test deployment
+
+on:
+  push:
+
+jobs:
+  deploy-job:
+    runs-on: ubuntu-latest
+    name: Deploy and test
+    steps:
+      - uses: actions/checkout@v3
+      - id: Test
+        uses: structr/structr-deploy-action@v1
+        with:
+          neo4j-version: '4.4'
+          structr-version: '4.3-SNAPSHOT'
+          structr-webapp-path: '${{ github.workspace }}/webapp_v1'
+
+      - name: "Check for existense of topology page"
+        run: curl -v localhost:8082/topology

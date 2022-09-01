@@ -1,0 +1,1 @@
+return org.structr.web.entity.Folder.getFileOnDisk(this, arg0, arg1, arg2);

@@ -1,0 +1,1 @@
+try { setProperty(positionProperty, getSourceNode().getMaxPosition()); } catch (FrameworkException fex) { /* ignore? */ }

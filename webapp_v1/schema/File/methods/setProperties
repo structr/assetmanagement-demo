@@ -1,0 +1,2 @@
+if (arg1.containsKey(parentProperty)) { org.structr.web.entity.File.checkMoveBinaryContents(this, parentProperty, arg1.get(parentProperty)); }
+		super.setProperties(arg0, arg1, arg2);

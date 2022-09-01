@@ -1,0 +1,53 @@
+[
+{
+  "color": "#2ca02c",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528349449,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "a7cc00eff6fc403fac24a9aa140fde49",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528349449,
+  "name": "Email 1",
+  "ofi_ID": "n23",
+  "owner": null,
+  "type": "Demo_Email",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "color": "#2ca02c",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528349474,
+  "description": "",
+  "grantees": [],
+  "hidden": false,
+  "id": "80076ffa9b3f43b194d67787dedc9b1a",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528349474,
+  "name": "Email 2",
+  "ofi_ID": "n24",
+  "owner": null,
+  "type": "Demo_Email",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "color": "#2ca02c",
+  "createdBy": "3057d6c632c44ca79056405cb6312050",
+  "createdDate": 1607528349478,
+  "description": "Don\u0027t use ONAN transformer",
+  "grantees": [],
+  "hidden": false,
+  "id": "b3b5e6c3e1324f2d8d2e62541217cc84",
+  "lastModifiedBy": "3057d6c632c44ca79056405cb6312050",
+  "lastModifiedDate": 1607528349478,
+  "name": "Email 3",
+  "ofi_ID": "n25",
+  "owner": null,
+  "type": "Demo_Email",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+}
+]

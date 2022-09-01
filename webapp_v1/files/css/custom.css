@@ -1,0 +1,30 @@
+td.valid {
+	background-color : #1CC88A;
+	color            : #FFFFFF;
+}
+
+td.invalid {
+	background-color : #D9534F;
+	color            : #FFFFFF;
+}
+
+.topbar .navbar-search{
+	width : 90%;
+}
+
+.twitter-typeahead {
+    width : 85%;
+}
+
+.fa, .fas {
+	font-weight: bold;
+}
+
+.bg-custom {
+	background-color: #1C2834;
+	background-size: cover;
+}
+
+.card-table-body {
+	padding: 0;
+}

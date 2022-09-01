@@ -1,0 +1,41 @@
+{
+  "Download CSV Button-fd370860572a4c01b2cd76059ebd65da": {
+    "id": "fd370860572a4c01b2cd76059ebd65da",
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
+  },
+  "Edit Buttons-960733b24fd049468ef8e0581ef02e7b": {
+    "id": "960733b24fd049468ef8e0581ef02e7b",
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
+  },
+  "Main Page Template-a5217bf8d0ac4da3b7613e526779dfca": {
+    "contentType": "text/html",
+    "id": "a5217bf8d0ac4da3b7613e526779dfca",
+    "shared": "true",
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
+  },
+  "Navigation Bottom-5d275bfc9911468a8b9c12598a4f1dfb": {
+    "id": "5d275bfc9911468a8b9c12598a4f1dfb",
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
+  },
+  "Navigation Left-b308539065be4e0182e84b0317c9f9a4": {
+    "id": "b308539065be4e0182e84b0317c9f9a4",
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
+  },
+  "Navigation Top-ca39c886fc724be7bec446cf8b4a91b8": {
+    "id": "ca39c886fc724be7bec446cf8b4a91b8",
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
+  },
+  "No Linebreak-ecd986a2e92143dea6e92d8a4436bad0": {
+    "contentType": "text/html",
+    "id": "ecd986a2e92143dea6e92d8a4436bad0",
+    "shared": "true",
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
+  }
+}

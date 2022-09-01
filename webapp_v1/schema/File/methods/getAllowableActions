@@ -1,0 +1,1 @@
+return new org.structr.files.cmis.config.StructrFileActions(isImmutable());

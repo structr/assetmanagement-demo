@@ -1,0 +1,293 @@
+<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="Main Page Template-a5217bf8d0ac4da3b7613e526779dfca" data-structr-meta-name="Main Page Template" data-structr-meta-id="ca80e67f11f54b169902f6d65036c848"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--References-->
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div class="row" data-structr-meta-id="2669fa6a2a5c47dfa2736f3f5316b426" data-structr-meta-hide-conditions="empty(current)"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Invalid Equipment-->
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="col-md-12 mb-4" data-structr-meta-id="6f927cbaa1054ee1a8f9266c66e2f0b9">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="card border-left-secondary shadow h-100 py-2" data-structr-meta-id="2791c4f2eaf14669b073927152e00d37">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="card-body" data-structr-meta-id="13cdec77f9d549e89138f94a9bda6d7e">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row no-gutters align-items-center" data-structr-meta-id="437706b133564584a3e49c68796e1c42">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col mr-2" data-structr-meta-id="1e043a56c02c4c578b50bd43be9c740f">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="text-xs font-weight-bold text-secondary text-uppercase mb-1" data-structr-meta-id="b177cd5f3a37489e861a052862a8d53b"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Invalid Equipment</div><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-danger mr-1" href="/equipment/${equipment}" data-structr-meta-id="567afca1df134346aefba85ef925c07a" data-structr-meta-data-key="equipment" data-structr-meta-function-query="{
+
+  const drawing = $.get('current');
+  const equipment = $.sort(drawing.equipments, 'name');
+  const invalidEquipment = equipment.filter(e =&gt; e.computedStatus === 'INVALID');
+
+  return invalidEquipment;
+
+}"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${equipment.name}</a>
+						</div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="col-auto" data-structr-meta-id="f675937aae3b4f738a7e0bb5be5370eb"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><i class="fas fa-cogs text-gray-300" data-structr-meta-id="a9fdbfb479ba469fa6fbec6c2b3e1515"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><!--Form-->
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div class="row" data-structr-meta-id="791f51532d5644c9b1ffb47e96e7322e">
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="col-12" data-structr-meta-id="8c0fcc3838214de2848e019a1b935985">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="card shadow mb-4" data-structr-meta-id="80ccd0f2c60a464fa838a2ee1262a45a">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between" data-structr-meta-id="9eb8080c2ab346a5a4e06a7a07e7e14e">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<h6 class="m-0 font-weight-bold text-primary" data-structr-meta-id="4b4797033c124bf5b951c70a8ed77ba6"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Drawing</h6>
+				</div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="card-body" data-structr-meta-id="59f3ae3a0f484c82a6da5151a9fe3d26">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row mb-4" data-structr-meta-id="06c9abd341e3409dafb7e4feef09f071">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<label class="col-3" data-structr-meta-id="31e3b29e330949ac81ed6cecf044b8f1"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Name</label>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<input class="col-9 form-control" id="name" value="${current.name}" data-structr-meta-id="781ba4a26154411a91f8336a9ffe4be3">
+					</div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row mb-4" data-structr-meta-id="85414f66e5f94c64821639635722c918">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<label class="col-3" data-structr-meta-id="9a289b031b5d479684520dd0e510e78c"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Status</label>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<select class="col-9 form-control select2-input" id="status" data-structr-meta-id="107560b985284f87aa03d6327ad80436">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option selected="${is(equal(current.status,'VALID'),'selected')}" data-structr-meta-id="b4b22c19d79a443889e882e258c4d42e"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->valid</option>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option selected="${is(equal(current.status,'INVALID'),'selected')}" data-structr-meta-id="069b93db19d040a6bc6fbfbd146b4e4b"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->invalid</option>
+						</select>
+					</div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row mb-4" data-structr-meta-id="c5a7c86986184381bbae0dfd77dd27cc">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<label class="col-3" data-structr-meta-id="4b04cfec4f74476f84ff7b405281a91f"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Type</label>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<select class="col-9 form-control select2-input" id="type" multiple="multiple" data-structr-meta-id="37797d4eb8804b3c87dd05d679ba4576">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option data-structr-meta-id="2651bb2e36f84644a605d1de8a59676c"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --></option>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option selected="${is(contains(current.docTypes,docType),'selected')}" value="${docType}" data-structr-meta-id="a7fb5f3fa2e44c619806dce2bd309920" data-structr-meta-data-key="docType" data-structr-meta-function-query="sort(find('Demo_DocType'), 'name')"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${docType.name}</option>
+						</select>
+					</div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row mb-4" data-structr-meta-id="0d0126a59056485aaf1e6e073fab4ccb">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<label class="col-3" data-structr-meta-id="b82b5160bee24579ac08f721e49650df"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Description</label><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><textarea class="col-9 form-control" id="description" data-structr-meta-id="ddb512ebb5ce4b44a69f2334e8b18e29"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${current.description}</textarea>
+					</div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row mb-4" data-structr-meta-id="381224c76d524bd99e5846ede5710418">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<label class="col-3" data-structr-meta-id="7d8c5ecba6184bc7994fadc629a03686"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Deliverables</label>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<select class="col-9 form-control select2-input" id="deliverables" multiple="multiple" data-structr-meta-id="a1f26d3029534211a4689df226a07fda">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option data-structr-meta-id="29acf0d48abf4f4dbc282eafc46d7a2b"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --></option>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option selected="${is(contains(current.deliverables,deliverable)'selected')}" value="${deliverable}" data-structr-meta-id="d969f761db4a4391aa704d43647dcae3" data-structr-meta-data-key="deliverable" data-structr-meta-function-query="sort(find('Demo_Deliverable'),'name')"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${deliverable.name}</option>
+						</select>
+					</div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row mb-4" data-structr-meta-id="ee2bf55606f0444fb6173badbbf34e06">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<label class="col-3" data-structr-meta-id="f22c50075bab409088b4d2d9b0c74992"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Workpacks</label>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<select class="col-9 form-control select2-input" id="workpacks" multiple="multiple" data-structr-meta-id="9e97c541c5d544ff88f5338c7253ee83">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option data-structr-meta-id="f6f865ddc553460cbe564b7551a17506"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --></option>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option selected="${is(contains(current.workpacks,workpack)'selected')}" value="${workpack}" data-structr-meta-id="1f0dd2c39e6e4703b6e460359a30cea3" data-structr-meta-data-key="workpack" data-structr-meta-function-query="sort(find('Demo_Workpack'),'name')"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${workpack.name}</option>
+						</select>
+					</div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row mb-4" data-structr-meta-id="64fc41aa58114984b757cd33d2cae2d1">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<label class="col-3" data-structr-meta-id="cbd9485646874d0b8e1e4d51f2af1e29"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Equipment</label>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<select class="col-9 form-control select2-input" id="equipment" multiple="multiple" data-structr-meta-id="c4ef31061e724d6bb844116c8f10b2fe">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option data-structr-meta-id="627a2b225c9243c6b8cea986c6604b6f"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --></option>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option selected="${is(contains(current.equipments,equipment)'selected')}" value="${equipment}" data-structr-meta-id="76fc0f4adba54972b50d20a2226267d0" data-structr-meta-data-key="equipment" data-structr-meta-function-query="sort(find('Demo_Equipment'),'name')"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${equipment.name}</option>
+						</select>
+					</div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="row mb-4" data-structr-meta-id="a71cd99a4bc64f5386392137fffa14b2">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<label class="col-3" data-structr-meta-id="77804fa3c68746d1a9117696fbb9f505"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Graph</label>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<select class="col-9 form-control select2-input" id="graph" data-structr-meta-id="f80e462739d74270a2b1e502ea4bdd33">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option data-structr-meta-id="113b3f18fe6f4cacbbde2d6582c577a6"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --></option>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<option selected="${is(equal(current.graph,graph)'selected')}" value="${graph}" data-structr-meta-id="329fd0bec73e4fca962fa28a7af1cf56" data-structr-meta-data-key="graph" data-structr-meta-function-query="sort(find('Demo_Graph'),'name')"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${graph.name}</option>
+						</select>
+					</div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<structr:component src="Edit Buttons-960733b24fd049468ef8e0581ef02e7b" data-structr-meta-name="Edit Buttons" data-structr-meta-id="6bed7a65effc4c719de834a938ebbaf8">
+					</structr:component>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<script type="text/javascript" data-structr-meta-id="748705a02a0e49528392547e9fd534a0"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/javascript) -->async function loadPartial(url, domNode) {
+
+	const encodedUrl = encodeURI(url);
+	const page = await fetch(encodedUrl);
+	const html = await page.text();
+	domNode.innerHTML = html;
+
+}
+
+async function reloadPage(componentId) {
+
+	const mainContainer = document.getElementById('main-container');
+
+	if(componentId) {
+		window.location.href = '/drawing/' + componentId;
+	} else {
+		window.location.href = '/drawings';
+	}
+	
+}
+
+function collectComponentProperties() {
+
+	const properties = {};
+	
+	// collect node properties
+	const name         = document.getElementById('name');
+	const status       = document.getElementById('status');
+	const type         = document.getElementById('type');
+	const description  = document.getElementById('description');
+	const deliverables = document.getElementById('deliverables');
+	const workpacks    = document.getElementById('workpacks');
+	const equipment    = document.getElementById('equipment');
+	const graph        = document.getElementById('graph');
+	
+	// ${current} is the uuid of the current detail object from the URL path /page.name/&lt;id&gt;
+	if('${current}') properties['id']           = '${current}';
+	if(name)         properties['name']         = name.value;
+	if(status)       properties['status']       = status.value.toUpperCase();
+	if(type)         properties['docTypes']     = $(type).val();
+	if(description)  properties['description']  = description.value;
+	if(deliverables) properties['deliverables'] = $(deliverables).val();
+	if(workpacks)    properties['workpacks']    = $(workpacks).val();
+	if(equipment)    properties['equipments']   = $(equipment).val();
+	if(graph)        properties['graph']        = graph.value;
+	
+	return properties;
+
+}
+
+async function getId(response) {
+
+	const rawResult = await response.text();
+	const result    = JSON.parse(rawResult);
+	const id        = result.result[0];
+	
+	return id;
+
+}
+
+async function createComponent(event) {
+	
+	const properties = collectComponentProperties();
+
+	const response = await fetch('/structr/rest/Demo_Drawing', {
+		headers: new Headers(),
+		method: 'POST',
+		body: JSON.stringify(properties),
+		credentials: 'same-origin'
+	});
+	const id = await getId(response);
+	
+	reloadPage(id);
+	
+}
+
+async function saveComponent() {
+	
+	const properties  = collectComponentProperties();
+	const componentId = properties['id'];
+	
+	if(componentId) {
+	
+		await fetch('/structr/rest/Demo_Drawing/' + componentId, {
+			headers: new Headers(),
+			method: 'PUT',
+			body: JSON.stringify(properties),
+			credentials: 'same-origin'
+		});
+	
+	}
+	
+	reloadPage('${current}');
+	
+}
+
+async function deleteComponent() {
+	
+	const properties  = collectComponentProperties();
+	const componentId = properties['id'];
+	
+	if(componentId) {
+	
+		await fetch('/structr/rest/Demo_Drawing/' + componentId, {
+			headers: new Headers(),
+			method: 'DELETE',
+			credentials: 'same-origin'
+		});
+	
+	}
+	
+	reloadPage();
+	
+}
+
+async function cancelComponent() {
+	
+	reloadPage('${current}');
+	
+}
+
+
+
+
+
+/******************************************************************************\
+ #MAIN
+\******************************************************************************/
+
+document.addEventListener('DOMContentLoaded', function() {
+	
+	// hook CREATE button
+	const createButton = document.getElementById('create-component');
+	if(createButton) {
+		createButton.addEventListener('click', createComponent);
+	}
+	
+	// hook SAVE button
+	const saveButton = document.getElementById('save-component');
+	if(saveButton) {
+		saveButton.addEventListener('click', saveComponent);
+	}
+	
+	// hook DELETE button
+	const deleteButton = document.getElementById('delete-component');
+	if(deleteButton) {
+		deleteButton.addEventListener('click', deleteComponent);
+	}
+	
+	// hook CANCEL button
+	const cancelButton = document.getElementById('cancel-component');
+	if(cancelButton) {
+		cancelButton.addEventListener('click', cancelComponent);
+	}
+
+});</script>
+</structr:template>

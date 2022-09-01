@@ -1,0 +1,41 @@
+[
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529374202,
+    "id": "aa021d72fab2401eac3c2ff14dbf77ba",
+    "internalTimestamp": "000001607529374202.000007394833254605",
+    "lastModifiedDate": 1607529374202,
+    "relType": "GRAPH_HAS_WORKPACK",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "5faf6fec47bc43e9a1c687cfd6a47199",
+    "type": "GraphGRAPH_HAS_WORKPACKWorkpack",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529374637,
+    "id": "4347a43072354bd3930abf06b4f65c8a",
+    "internalTimestamp": "000001607529374637.000007395268493748",
+    "lastModifiedDate": 1607529374637,
+    "relType": "GRAPH_HAS_WORKPACK",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "9227d8fd80a841859c65f8365a00843e",
+    "type": "GraphGRAPH_HAS_WORKPACKWorkpack",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "createdBy": "3057d6c632c44ca79056405cb6312050",
+    "createdDate": 1607529375161,
+    "id": "b9824db75c024124aa95b5a8009ae76d",
+    "internalTimestamp": "000001607529375161.000007395792014819",
+    "lastModifiedDate": 1607529375161,
+    "relType": "GRAPH_HAS_WORKPACK",
+    "sourceId": "6459577e53674eb185b2caf10f545f93",
+    "targetId": "e9e6ad0181ca4435ab297d2e8ff5d290",
+    "type": "GraphGRAPH_HAS_WORKPACKWorkpack",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  }
+]
