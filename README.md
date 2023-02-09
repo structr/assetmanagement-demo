@@ -4,7 +4,7 @@ This is a small demo application built with Structr that showcases an assetmanag
 
 ## Requirements
 
-A running instance of Structr enterprise edition (> version 4.2.0)
+A running instance of Structr enterprise edition (> version 4.2.x)
 
 ## Installation
 
