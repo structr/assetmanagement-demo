@@ -15,6 +15,7 @@ jobs:
           neo4j-version: '4.4'
           structr-version: '4.3-SNAPSHOT'
           structr-webapp-path: '${{ github.workspace }}/webapp'
+          structr-conf-file: '${{ github.workspace }}/structr.conf'
 
       - name: "Check for existense of topology page"
         run: curl -v localhost:8082/topology
