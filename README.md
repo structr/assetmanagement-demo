@@ -19,4 +19,4 @@ Or follow these steps:
 
 
 
-> :warning: **The deployment import will remove all existing application information in the Structr instance**: It is highly recommended to use a new and empty database for the deployment of this demo!
+> :warning: **The deployment import will remove all existing application information in the Structr instance**: It is highly recommended to use a new and empty database for the deployment of this demo! Or make a backup of your existing database to avoid dataloss.
